@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="dashboard.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		</div>
+	<!-- Container -->
+		<div class="container">
+			<div id="colspan">
+				<div class="user">
+					<h3><i class="fa fa-coffee fa-fw large"></i>Admin</h3>
+			</div>
+				<p><i class="fa fa-address-book fa-fw large"></i>Jaringan Warkop Nusantara</p>
+				<p><i class="fa fa-book fa-fw large"></i>Setya Yudha Indra Swara</p>
+				<p><i class="fa fa-linux fa-fw large"></i>Perumahan Nuri</p>
+				
+				<hr>
+				<h3><i class="fa fa-linux fa-fw large"></i>Tools</h3>
+				<div class="load">
+					<a href="#">Daftar Barang</a>
+				</div>
+				<br/>
+				<div class="load2">
+					<a href="#" target="_blank">Info Barista</a>
+				</div>
+				<br/>
+				<div class="load3">
+					<a href="#C4">Calculator</a>
+					<hr>
+					<h3><i class="fa fa-linux fa-fw large"></i>Tools</h3>
+				<div class="load">
+					<a href="#">SCAA Flavor Wheel</a>
+				</div>
+				<br/>
+				<div class="load2">
+					<a href="#" target="_blank">SCAI Flavor Wheel</a>
+				</div>
+				<br/>
+				<div class="load3">
+					<a href="#C4">Setting</a>
+				</div>
+				<br/>
+					<div class="load3">
+
+					<a href="#C4">Logout</a>
+					</div>
+					<hr>
+			</div>
+			</div>
+			
+		</div> 
+		<!-- Padding Kanan -->
+		<div class="container-padding">
+		<div class="padding">
+			<table id="makanan">
+				<tr>
+					<th>No</th>
+					<th>Makanan/Minuman</th>
+					<th>Harga</th>
+					<th>Jumlah Pesanan</th>
+				</tr>
+					<tr>
+						<td>1</td>
+						<td>Es Kopi Susu</td>
+						<td><input type="text" value="Rp.8000" readonly="true" style="width:95%;height:auto;"></td>
+						<td><input type="text" style="width:95%;height:auto;"></td></input>
+					</tr>
+					<tr>
+					<td>2</td>
+					<td>Kopi Susu Hangat</td>
+					<td><input type="text" value="Rp.8000" readonly="true" style="width:95%;height:auto"></td></input>
+					<td><input type="text"  style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Es Teh</td>
+					<td><input type="text" value="Rp.5000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Teh hangat</td>
+					<td><input type="text" value="Rp.5000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Indomie Telor</td>
+					<td><input type="text" value="Rp.1000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Indomie</td>
+					<td><input type="text" value="Rp.8000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Sosis Bakar</td>
+					<td><input type="text" value="Rp.5000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Otak-Otak Bakar</td>
+					<td><input type="text" value="Rp.5000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Roti Bakar</td>
+					<td><input type="text" value="Rp.8000" readonly="true" style="width:95%;height:auto;"></td>
+					<td><input type="text" style="width:95%;height:auto;"></td></input>
+				</tr>
+				<tr>
+				<td colspan="3">Jumlah Total</td>
+				<td><input type="text" style="width:95%;height:auto;"></td></input>
+			</tr>
+			<tr>
+				<td colspan="3">Jumlah Bayar</td>
+				<td><input type="text" style="width:95%;height:auto;"></td></input>
+			</tr>
+
+			</table>
+			<br>
+			<input type="button" value="Hitung" onclick="window.print()" />
+			</div>
+			</div>
+
+			<div class="padding-bottom">
+                 <canvas id="lineChart">
+                    <script>
+                     //line
+var ctxL = document.getElementById("lineChart").getContext('2d');
+var myLineChart = new Chart(ctxL, {
+  type: 'line',
+  data: {
+    labels: ["January", "February", "March", "April", "May", "June", "July"],
+    datasets: [{
+        label: "My First dataset",
+        data: [65, 59, 80, 81, 56, 55, 40],
+        backgroundColor: [
+          'rgba(105, 0, 132, .2)',
+        ],
+        borderColor: [
+          'rgba(200, 99, 132, .7)',
+        ],
+        borderWidth: 2
+      },
+      {
+        label: "My Second dataset",
+        data: [28, 48, 40, 19, 86, 27, 90],
+        backgroundColor: [
+          'rgba(0, 137, 132, .2)',
+        ],
+        borderColor: [
+          'rgba(0, 10, 130, .7)',
+        ],
+        borderWidth: 2
+      }
+    ]
+  },
+  options: {
+    responsive: true
+  }
+});
+
+Radar chart 
+</script>
+                 </canvas>
+
+              </div>    
+</div>
+
+		<div class="footer">
+		</div>
+	</body>
+</html>

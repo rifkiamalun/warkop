@@ -1,0 +1,179 @@
+body {
+				background-image:url(https://manjaro.org/img/bg.svg);
+				background-size: auto;
+				background-color: #f0f0f0;
+				background-size: contain;
+				background-repeat: no-repeat;
+				background-position: -232px 232px;
+				background-attachment: fixed;
+				width: 95%;
+			}		
+			#colspan{
+			background-color: dodgerblue;
+			background-position: center center;
+			color: white;
+			font-size: 15px !important;
+			width: 20%;
+			height: 1455px;
+			text-align: justify;
+			float: left;
+			padding: 0 8px;
+			margin: 0 auto;
+			padding-right: 16px;
+			margin-left: 0;
+			}
+			.container-padding {
+			width: 100%;
+			height: 720.2px;
+			background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 15px;
+			line-height: 22.5px;
+			margin: 13px;
+			margin-left: 22%;
+			padding-bottom: 0.15px;
+			padding-left: 1px;
+			padding-top: 0px;
+
+			}
+			
+			.padding { 
+				text-align: left;
+			}
+			.padding-bottom {
+			width: 100%;
+			position: bottom;
+			height: 720.2px;
+			background-color: rgb(255, 255, 255);
+			box-sizing: border-box;
+			color: rgb(0, 0, 0);
+			font-family: "Roboto", sans-serif;
+			font-size: 15px;
+			line-height: 22.5px;
+			margin-left: 22%;
+			padding-bottom: 0.15px;
+			padding-left: 14px;
+			padding-top: 0px;
+			margin-top: 0px;
+			}
+			
+			
+			
+			a:link, a:visited {
+ 			 background-color: #f44336;
+  			color: white;
+  			width: 100%;
+   			 text-align: center;
+  text-decoration: none;
+  display: inline-block;
+border-bottom-left-radius: 16px;
+border-bottom-right-radius: 16px;
+border-top-left-radius: 16px;
+border-top-right-radius: 16px;
+}
+
+a:hover, a:active {
+  background-color: pink;
+}		
+#makanan {
+	  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	  border-collapse: collapse;
+	  width: 100%;
+}
+
+#makanan td, #makanan th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+#makanan tr:nth-child(even){background-color: #f2f2f2;}
+
+#makanan tr:hover {background-color: #ddd;}
+
+
+#makanan th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+}
+
+			.content1 { 
+				padding: 14px;
+			}
+			.content2 {
+				padding: 14px;
+			}
+			.content3 {
+				padding: 10px;
+			}
+			.content4 {
+				padding: 16px;
+			}
+			.content5 {
+				padding: 16px;
+			}
+			.content6 {
+				padding: 16px;
+			}
+			img, h3  {
+				
+				font-size: 13px
+				
+			}
+
+			
+
+			hitung {
+				float: right;
+			}
+
+			/*spin */
+
+			text{
+        font-family:Helvetica, Arial, sans-serif;
+        font-size:11px;
+        pointer-events:none;
+    }
+   
+				
+			h4{
+				color: white;
+				padding: 15px;
+				text-align: left;
+				margin-top: -50px;
+			}
+			i {
+				padding: 5px;
+				color: white !important;
+
+			}
+			hr {
+				border: 1px solid;
+				color: white;
+			}
+
+			h3 {
+				text-align: justify;
+				color: black;
+				background-color: #4CAF50;
+				width: 80px;
+				border-radius: 8px;
+				border: 1px;
+			}
+
+			h5 {
+				background-color: dodgerblue;
+				padding: 16px;
+				width: 15%;
+				border-radius:none;
+				font-size: 13px;
+			}
+		
+			
+			p:hover {
+				pointer-events: : pointer;
+				background-color: red;
+			}
