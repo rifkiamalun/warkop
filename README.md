@@ -1,2 +1,3 @@
 # warkop
-applikasi kasir sederhana
+Insyallah Jadi 
+
